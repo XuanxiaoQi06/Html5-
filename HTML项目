@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>拼多多首页</title>
+		<style type="text/css">
+			*{ margin: 0; padding: 0;list-style: none; text-decoration: none; }
+			.bgA{width: 100%;height:103px;position: fixed;background-color: #fff;  border-bottom:solid 4px #ed435b;   } 
+			.dieA{width: 1200px; height: 102px; padding: 0 0 0 0; margin: 0 auto;}
+			.die1{width: 1200px; height: 100%;  font-size: 16px;}
+			.die11{padding-top: 20px; float: left;}
+			.die1 img{width: 180px;height: 63px;}
+			.die2{margin: 20px 0 0 0; padding: 20px 0 20px 20px;}
+			ul{float: right;}
+			li{float: left;}
+			.die2 a{color: #6c6c6c;font-size: 18px; }
+			a{overflow: hidden;}
+			#a1{color: #fc478a; }
+			#a2{border-left: 1px solid;padding-left: 15px;margin-left: 15px;}
+			
+			.dl img{width: 100%; height:100%; margin: 107px auto 0; }
+			.ewm{position: fixed; top:375px; left: 140px;}
+			
+			.bgB{background: #fafafa;}		
+			.bgB1{width: 1200px; margin: 0 auto;}				 
+			.jcm{width: 1200px; border-bottom: 1px solid #d4d4d4;
+			     margin: 0 auto; padding-bottom: 45px; padding-top:75px;}
+			#nr1{font-size: 20px;float: left;}
+			#nr2{float: right; }
+			#nr2 a{color: #868686;}
+						
+			.dieB{width: 1200px;  margin: 43px auto 18px; }
+			.dieB img{padding: 14px; background-color: #fff;} 
+			.dieC{ width: 1200px; height: 210px; margin: 0 auto;}
+			.dieC div{
+				float: left;margin: 0 19px 17px 0;padding: 14px; background-color: #fff;
+			}
+			.dieC .temai{width: 310px; height: 210px; }
+			.dieC .shop{width: 457px; height: 210px; }
+			.dieC .xiazai{width: 310px; height: 210px; margin-right: 0; float: right;}
+			
+			.jxm{width: 1200px; border-bottom: 1px solid #d4d4d4;
+			     margin: 0 auto; padding-bottom: 45px; padding-top:75px;}
+			#jxzt{font-size: 20px; float: left;}
+			#gd{float: right; color: #868686;}
+			
+			.dieD{width: 1200px; overflow: hidden;}
+			.dieD a{color: #111; font-size: 12px;}
+			.dieD1{width: 556px; overflow: hidden; padding: 10px; margin: 0 45px 0 0; background-color: #fff;
+				   float: left; margin-bottom: 45px;}
+			.dieD div:nth-child(2n){ margin-right: 0;}
+			.dieD1 .dieD11{width: 556PX; background-color: #FFF; float: left;}
+			.dieD2{	width: 556px; overflow: hidden;}
+			.dieD2 .sanxiao{width: 160px; margin: 0 12px ; float: left;}
+			.dieD2 img{width: 125px; height: 125px; margin: 7px 17.5px;}
+			.dieD2 .zi{width: 160px; height: 36px; overflow: hidden; line-height: 18px;}
+			.dieD2 .jiaqian{width: 160px; text-align: center;}
+			
+			.bottom{background-color: #fff; padding-top: 60px; width: 100%; overflow: hidden;}
+			.bottom-head{width: 1200px; margin: 0 auto; overflow: hidden;}
+			.bottom-head div{float: left; margin-right: 60px;}
+			.bottom-head .lianxi{width: 285px; height: 204px; border-left: 1px solid #4d4d4d; 
+			padding-left: 50px;}
+			.lianxi .z{height: 24px; font-size: 24px; color: #4D4D4D; margin-top: 0; line-height: 24px;}
+			.lianxi p{height: 16px; line-height: 16px; font-size: 15px; color: #4D4D4D; margin-top: 20px;}
+			.lianxi .z1{padding-left: 120px;}
+			.xia{overflow: hidden; text-align: center;}
+			.xia .xia-1{ width: 1200px; margin: 60px auto 58px; overflow: hidden;}
+
+			.xia a{float: left; color: #6C6C6C; border-right: 1px solid #C1C1C1; padding: 0 6px;}
+			.xia .xia-quxiao a{ border-right: 0;}
+			.shangbiao {width: 100%; height: 130px; background-color: #3f3e3e;}
+			.shangbiao div{ text-align: center; color: #b1b1b1; height: 14px; font-size: 14px; line-height: 14px;}
+			.shangbiao .one{padding-top: 27px;}
+			.shangbiao .tow{padding: 17px 0;}
+			.shangbiao a{color: #b1b1b1;}
+			.zuihou{text-align: center; background-color: #fff;}
+			.zuihou img{width: auto; height: auto; max-width: 120px; max-height: 50px; vertical-align: middle; display: inline-block; margin: 10px;}
+			a:hover{opacity: 0.7;}
+		</style>
+	</head>
+	<body>
+		<div class="bgA">	
+			<div class="dieA">					
+				<div class="die1">
+					<div class="die11">
+						<img src="img/pdd_logo_v2.png" />
+					</div>
+					<ul class="die2">
+						<li><a href="" id="a1">首页</a></li>
+						<li><a href="" id="a2">商家入驻</a></li>
+						<li><a href="" id="a2">热点资讯</a></li>
+						<li><a href="" id="a2">爱心扶贫</a></li>
+						<li><a href="" id="a2">社会招聘</a></li>
+						<li><a href="" id="a2">校园招聘</a></li>
+						<li><a href="" id="a2">商务合作</a></li>
+						<li><a href="" id="a2">帮助中心</a</li>
+						<li><a href="" id="a2">举报平台</a></li>
+						<li><a href="" id="a2">分享赚钱</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<div class="ewm">
+			<img src="img/organic_left_code.jpg"/>
+		</div>
+		<div class="bgB">
+			
+				<a class="dl">
+					<img src="img/index_banner_2_v7.jpg"/>
+				</a>
+			<div class="bgB1">
+				
+					<div class="jcm">
+						<span id="nr1">精彩活动</span>
+						<span id="nr2"><a href="#">更多&gt;</a></span>
+					</div>
+				
+		
+				<div class="dieB">
+					<a href="#">
+						<img src="img/seckill_v2.jpg"/>
+					</a>
+				</div>
+			
+				<div class="dieC">
+					<div class="temai"><a href="#"><img src="img/sale_v2.jpg"/></a></div>
+					<div class="shop"><a href="#"><img src="img/supermarket_v2.jpg"/></a></div>
+					<div class="xiazai"><a href="#"><img src="img/download.jpg"/></a></div>
+				</div>	
+				<div class="jxm">
+					<div class="">
+						<span id="jxzt">精选专题</span>
+						<span id="gd"><a href="#"></a> 更多&gt;</span>
+					</div>
+				</div>
+				<div class="dieD">
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dieD1">	
+						<a href="#" class="dieD11">										
+							<img src="img/4.jpg"/>
+							<div class="dieD2">	
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+								<div class="sanxiao">
+									<img src="img/5.jpg"/>	
+									<div class="zi">【32.94元限时抢，抢完恢复35.8元】【正品】浪莎打底裤女冬季加绒加厚外穿保暖裤肉色光腿神器连裤袜</div>
+									<div class="jiaqian">
+										<span>￥32</span>
+										<span class="dieD22">￥90</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>						
+			</div>
+					
+		</div>
+		<div class="bottom">
+			<div class="bottom-head">
+				<div class="bottom-1">
+					<img src="img/pdd_foot_wechat.png" />
+				</div>
+				<div class="bottom-2">
+					<img src="img/pdd_foot_wechat.png" />
+				</div>
+				<div class="bottom-3">
+					<img src="img/pdd_foot_wechat.png" />
+				</div>
+				<div class="lianxi">
+					<p class="z">联系我们</p>
+					<p>客服&举报电话：021-53395288（推荐）</p>
+					<p class="z1">400-8822-528</p>
+					<p>商家热线：021-5339-5088</p>
+					<p>客服时间：8:00-20:30</p>
+					<p>上海寻梦信息技术有限公司</p>
+				</div>
+			</div>
+			<div class="xia">
+				<ul class="xia-1">
+					<li>
+						<a href="#">入驻多多国际</a>
+					</li>
+					<li>
+						<a href="#">校园招聘</a>
+					</li>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li>
+						<a href="#">下载App</a>
+					</li>
+					<li>
+						<a href="#">消费者保障</a>
+					</li>
+					<li>
+						<a href="#">维权投诉指引</a>
+					</li>
+					<li>
+						<a href="#">廉正举报</a>
+					</li>
+					<li>
+						<a href="#">服务协议</a>
+					</li>
+					<li>
+						<a href="#">隐私政策</a>
+					</li>
+					<li>
+						<a href="#">征求意见</a>
+					</li>
+					<li class="xia-quxiao">
+						<a href="#">Investor Relations</a>
+					</li>
+				</ul>
+			</div>
+			<div class="shangbiao">
+				<div class="one">
+					<span>Copyright 2015-2019 pinduoduo.com 版权所有</span>
+					<a href="#">(增值电信业务经营许可证：沪B2-20170215)</a> 
+				</div>
+				<div class="tow">
+					<a href="#">互联网药品信息服务资格证书（沪）-非经营性-2017-0008</a>
+				</div>
+				<div class="three">
+					<a href="#">沪公网安备 31010502000392号</a>
+					<span>（沪）网械平台备字[2018]第00003号沪ICP备15010535号-13|</span>
+					<a href="#">营业执照</a>
+				</div>
+			</div>
+			<div class="zuihou">
+				<a href="#">
+					<img src="img/wgxxjb_v2.png"/>
+				</a>
+				<a href="#">
+					<img src="img/yhxxjb.jpg"/>
+				</a>
+				<a href="#">
+					<img src="img/pdd_weiquan_entry.png"/>
+				</a>
+				<a href="#">
+					<img src="img/pdd_food_trade_entry.jpg"/>
+				</a>
+				<a href="#">
+					<img src="img/pdd_wangjing_tip.jpg" />
+				</a>
+				<a href="#">
+					<img src="img/pdd_foot_shop_comment.png"/>
+				</a>
+				<a href="#">
+					<img src="img/pdd_foot_competition.png"/>
+				</a>
+	
+			</div>
+		</div>
+	</body>
+</html>
